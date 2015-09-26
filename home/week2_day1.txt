@@ -1,0 +1,19 @@
+1) Visualize all today classwork and below examples:
+
+https://github.com/presly808/ACB9/tree/master/src/ua/artcode/week2/
+
+https://github.com/presly808/ACB3/blob/master/src/ua/artcode/week2/day2/TestString.java
+
+https://github.com/presly808/ACB3/blob/master/src/ua/artcode/week2/day1/LoopTest.java
+
+https://github.com/presly808/ACB3/blob/master/src/ua/artcode/week2/day1/Task1_1.java
+
+https://github.com/presly808/ACB3/blob/master/src/ua/artcode/week2/day1/Task2.java
+
+http://www.pythontutor.com/visualize.html#code=public+class+DecToBin+%7B%0A%0A%09public+static+void+main(String%5B%5D+args%29+%7B%0A%09%09%0A%09%09int+num+%3D+53%3B%0A%09%09%0A%09%09String+bin+%3D+decToBin(num%29%3B%0A%09%09System.out.println(%22binary+%3D+%22+%2B+bin%29%3B%0A%09%09%0A%09%09int+res+%3D+binToDec(bin%29%3B%0A%09%09%0A%09%09System.out.println(%22dec+%3D+%22+%2B+res%29%3B%0A%09%7D%0A%09%0A%09public+static+String+decToBin(int+dec%29%7B%0A%09%09int+div+%3D+dec%3B%0A%09%09int+mod+%3D+0%3B%0A%09%09String+res+%3D+%22%22%3B%0A%09%09%0A%09%09while(div+%3E%3D+1%29%7B+//exit+condition%0A%09%09%09mod+%3D+div+%25+2%3B+%0A%09%09%09res+%3D+mod+%2B+res%3B+//+action%0A%09%09%09div+%3D+div+/+2%3B+//+way+condition%0A%09%09%7D%0A%09%09%0A%09%09return+res%3B%0A%09%7D%0A%09%0A%09public+static+int+binToDec(String+bin%29%7B%0A%09%09int+res+%3D+0%3B%0A%09%09for(int+i+%3D+bin.length(%29+-+1,+pow+%3D+1%3B+i+%3E%3D+0%3B+i--,+pow+%3C%3C%3D+1%29%7B%0A%09%09%09int+num+%3D+(bin.charAt(i%29+%3D%3D+'0'+%3F+0+%3A+1%29%3B%0A%09%09%09res+%3D+res+%2B+num+*+pow%3B%0A%09%09%7D%0A%09%09return+res%3B%0A%09%09%0A%09%7D%0A%0A%7D&mode=display&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=java&rawInputLstJSON=%5B%5D&curInstr=0
+
+http://www.pythontutor.com/visualize.html#code=public+class+Task2+%7B%0A%09%0A%09%0A%09public+static+void+main(String%5B%5D+args%29+%7B%0A%09%0A%09%09%0A%09%09%0A%09%09int+size+%3D+20%3B%0A%09%09%0A%09%09System.out.println(%22start+range%22%29%3B%0A%09%09int+start+%3D+5%3B%0A%09%09%0A%09%09System.out.println(%22end+range%22%29%3B%0A%09%09int+end+%3D+15%3B%0A%09%09%0A%09%09int%5B%5D+arr+%3D+new+int%5Bsize%5D%3B%0A%09%09int+i+%3D+start%3B%0A%09%09%0A%09%09if(i+%25+2+%3D%3D+0%29%7B%0A%09%09%09i+%2B%3D+1%3B%0A%09%09%7D+%0A%09%09%0A%09%09for(int+j+%3D+0%3B+j+%3C+arr.length%3B+i+%2B%3D+2,+j%2B%2B%29%7B%0A%09%09%09arr%5Bj%5D+%3D+i%3B%0A%09%09%7D%0A%09%09%0A%09%09System.out.println(%22Reversed+array%22%29%3B%0A%09%09for(int+j+%3D+arr.length+-+1%3B+j+%3E%3D+0%3B+j--%29%7B%0A%09%09%09System.out.print(arr%5Bj%5D+%2B+%22+%22%29%3B%0A%09%09%7D%0A%09%09%0A%09%7D%0A%7D%0A/*viz_options+%7B%22showStringsAsObjects%22%3Atrue%7D*/&mode=display&origin=opt-frontend.js&cumulative=false&heapPrimitives=false&textReferences=false&py=java&rawInputLstJSON=%5B%5D&curInstr=0
+
+https://github.com/presly808/ACB3/blob/master/src/ua/artcode/week2/day2/TestString.java
+
+http://www.golovachcourses.com/procedural-iteration/
