@@ -1,20 +1,16 @@
-import java.util.Scanner;
+package ua.artcode.week1;
 
-public class _6HumanLifeAlgoWithScanner {
+/**
+ * Created by serhii on 20.09.15.
+ */
+public class _6HumanLifeAlgo {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-
-        System.out.println("Input name");
-        String name = sc.next();
-        System.out.println("Input health");
-        int health = sc.nextInt();
-
-        System.out.println("Input money");
-        double money = sc.nextDouble();
-        System.out.println("input age");
-        int age = sc.nextInt();
+        String name = "Human1";
+        int health = 20;
+        double money = 1500;
+        char sex = 'M'; // or F
+        int age = 25;
 
         int healthLimit = 30;
 

@@ -1,3 +1,5 @@
+package ua.artcode.week1;
+
 public class Main {
 
     // command (method)

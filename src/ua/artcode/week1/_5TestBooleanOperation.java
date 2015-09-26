@@ -1,3 +1,5 @@
+package ua.artcode.week1;
+
 /**
  * Created by serhii on 20.09.15.
  */
