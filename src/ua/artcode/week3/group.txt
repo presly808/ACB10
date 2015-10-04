@@ -1,0 +1,6 @@
+Group:{
+    name:ACB10,
+    hours:18,
+    friendsCount:11,
+    friends:[Nastia;Kolia;Vasia;Andrey]
+}

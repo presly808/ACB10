@@ -19,7 +19,7 @@ public class _02TestLoopIntro {
         //
         // }
 
-        // start
+        // parse
         int pos = 0;
         while(pos < 10){ // exit
             System.out.println(pos); // action
